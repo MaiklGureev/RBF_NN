@@ -1,6 +1,7 @@
-package com.company.nn;
+package com.company.dataset;
 
 public class Dataset {
+
     public static double[] train = new double[]{
             0.13221,
             0.12752,

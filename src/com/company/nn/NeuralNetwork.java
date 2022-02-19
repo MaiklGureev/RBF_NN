@@ -1,6 +1,8 @@
 package com.company.nn;
 
 import com.company.Config;
+import com.company.dataset.Dataset;
+import com.company.dataset.Dataset2;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -12,8 +14,8 @@ public class NeuralNetwork implements Serializable {
     public List<Neuron> neurons;
     public OutNeuron outNeuron;
 
-    public double[] datasetTrain = Dataset.train;
-    public double[] datasetTest = Dataset.test;
+    public double[] datasetTrain = Dataset2.train;
+    public double[] datasetTest = Dataset2.test;
 
     public NeuralNetwork() {
         neurons = new ArrayList<Neuron>();
